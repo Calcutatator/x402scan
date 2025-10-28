@@ -17,6 +17,7 @@ const chainMap: Record<FacilitatorsChain, Chain> = {
   [FacilitatorsChain.BASE]: Chain.BASE,
   [FacilitatorsChain.POLYGON]: Chain.POLYGON,
   [FacilitatorsChain.SOLANA]: Chain.SOLANA,
+  [FacilitatorsChain.ABSTRACT]: Chain.ABSTRACT,
 };
 
 export const facilitators: Facilitator[] = RAW_FACILITATORS.map(f => ({
